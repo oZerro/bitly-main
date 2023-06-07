@@ -14,12 +14,12 @@ Python 3 уже должен быть установлен
 ![](https://github.com/oZerro/bitly/blob/main/img/qwe.jpg?raw=true)
 
 3. Клонируйте репозиторий с github - для этого выполните в консоли:  
-`git clone https://github.com/oZerro/bitly.git`
+`git clone https://github.com/oZerro/bitly-main.git`
 
 4. Создайте виртуальное окружение.  
 Для создания виртуального окружения:  
 - Перейдите в директорию своего проекта.  
-`cd bitly` 
+`cd bitly-main` 
 - Выполните:  
 `python -m venv venv`
 
