@@ -43,7 +43,7 @@ Python 3 уже должен быть установлен
 ## Как запустить
 Для запуска перейдите в директорию проекта и выполните команду в консоли, как показано на скриншоте ниже:    
 
-![](https://github.com/oZerro/bitly-main/blob/main/img/133.jpg?raw=true)
+![](https://github.com/oZerro/bitly-main/blob/main/img/133.png?raw=true)
 
 
 
