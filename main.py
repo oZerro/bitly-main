@@ -5,9 +5,6 @@ from urllib.parse import urlparse
 from requests.exceptions import HTTPError
 from dotenv import load_dotenv
 
-parser = argparse.ArgumentParser()
-parser.add_argument("link")
-args = parser.parse_args()
 
 LINK = "https://api-ssl.bitly.com/v4"
 
@@ -56,6 +53,10 @@ def is_bitlink(token, url):
 def main(link):
     load_dotenv()
     token = os.environ['BITLY_TOKEN']
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("link")
+    args = parser.parse_args()
 
     try:
         if is_bitlink(token, link):
